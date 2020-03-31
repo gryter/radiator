@@ -134,17 +134,13 @@ module Radiator
   class Api
     include Utils
     
-    DEFAULT_STEEM_URL = 'https://api.steemit.com'
+    DEFAULT_STEEM_URL = 'https://anyx.io'
     
     DEFAULT_STEEM_FAILOVER_URLS = [
       DEFAULT_STEEM_URL,
-      'https://appbasetest.timcliff.com',
-      'https://api.steem.house',
-      'https://steemd.minnowsupportproject.org',
-      'https://steemd.privex.io',
-      'https://rpc.steemviz.com',
-      'https://anyx.io',
-      'httpd://rpc.usesteem.com'
+      'https://api.hive.blog',
+      'https://api.openhive.network',
+      'https://api.hivekings.com'
     ]
     
     DEFAULT_RESTFUL_URL = 'https://anyx.io/v1'
